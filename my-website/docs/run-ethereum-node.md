@@ -4,6 +4,7 @@ title: Run Ethereum Node
 ---
 
 # Create a new validator for Native restaking
+
 ## 2. Run an Ethereum Node
 
 An Ethereum staking node refers to both
@@ -11,9 +12,10 @@ An Ethereum staking node refers to both
 - **Validator client** for active participation in block proposals and attestations with sufficient stake.
 
 **Hardware requirements:**
-•	RAM: 32 GB - 16 GB (Min) can be challenging depending on client mix
-•	CPU: 4 CPU cores (Min)
-•	Storage: 2TB Minimum - 4TB Recommended. Quality is highly important suitable models advised [here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038)
+
+- RAM: 32 GB - 16 GB (Min) can be challenging depending on client mix
+- CPU: 4 CPU cores (Min)
+- Storage: 2TB Minimum - 4TB Recommended. Quality is highly important suitable models advised [here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038)
 
 ### Option 1: Manual Configuration
 
@@ -80,5 +82,3 @@ A docker automation project for Ethereum clients, easy to setup by answering sim
 :warning: Validators SHOULD NOT direct execution rewards (suggested_fee_recipient) to their EigenPod. These funds may be irretrievably stuck.
 
 Execution reward address can be any Ethereum address you have full control of such as the **controller account.**
-
-[← Create Validator Keys](./create-validator-keys.md)    [Import Validator Keys →](./import-validator-keystores.md)

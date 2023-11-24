@@ -48,5 +48,3 @@ If you update your credentials **before** restaking on EigenLayer, you will have
 ### Existing Validators with 0x01 Prefixes
 
 If you have validators with 0x01 prefixes that are not pointed to an EigenPod, you will have to go through the withdrawal queue. In this case, you'll need to withdraw your ETH, create a new Ethereum validator with the withdrawn ETH, and set the withdrawal credentials to an EigenPod to restake on EigenLayer.
-
-[← For Existing Validators](./for-existing-validators.md)    [Repoint Validator Withdrawal Cre..→](./repoint-validator-withdrawal-credentials.md)

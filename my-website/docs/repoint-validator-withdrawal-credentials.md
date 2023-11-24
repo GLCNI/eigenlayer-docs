@@ -23,7 +23,7 @@ ethdo validator credentials get --validator=VALIDATOR_INDEX
 ```
 5. Finally, navigate to the your EigenPod dashboard on the EigenLayer app and check that the number of restaked validators matches the number of validators whose withdrawal credentials you repointed:
 
-![](./images/page_2_1.png)
+![](/images/page_2_1.png)
 
 ## Option 2: Consensus Client
 
@@ -53,5 +53,3 @@ Some consensus clients also have their own, implementation-specific, support for
 3. Broadcast the signature you generated in step 1 using this tool: [https://beaconcha.in/tools/broadcast](https://beaconcha.in/tools/broadcast)
     
 :warning: Validators SHOULD NOT direct execution rewards (`suggested_fee_recipient`) to their EigenPod. These funds may be irretrievably stuck.
-
-[← Verify Validator Withdrawal Pref..](./verify-validator-withdrawal-prefix.md)    [Withdraw from EigenLayer →](./withdraw-from-eigenlayer.md)

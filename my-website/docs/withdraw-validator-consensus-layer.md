@@ -16,5 +16,3 @@ To withdraw your validator from participating in Ethereum consensus, follow your
 -   [Nimbus](https://nimbus.guide/voluntary-exit.html)
     
 -   [Lodestar](https://chainsafe.github.io/lodestar/reference/cli/#validator-voluntary-exit)
-
-[← Full Withdrawal](./full-withdrawal.md)    [Partial Withdrawal →](./partial-withdrawal.md)

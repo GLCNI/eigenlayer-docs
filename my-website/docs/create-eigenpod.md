@@ -15,17 +15,17 @@ title: Create EigenPod
 _Don't have a crypto wallet yet? We recommend installing_ [_Metamask_](https://metamask.io/download/)_._
 
 **Step 2:** Click **Create Pod**:
-![](./images/page_1_1.png)
+![](/images/page_1_1.png)
 
 If successful, you should receive the following confirmation:
 
-![](./images/page_1_2.png)
+![](/images/page_1_2.png)
 
 Click **Pod Details** to view your **EigenPod address**:
 
-![](./images/page_1_3.png)
+![](/images/page_1_3.png)
 
-![](./images/page_1_4.png)
+![](/images/page_1_4.png)
 
 **Copy** this address.
 
@@ -33,6 +33,6 @@ Click **Pod Details** to view your **EigenPod address**:
 
 :warning: Validators SHOULD NOT direct execution rewards (`suggested_fee_recipient`) to their EigenPod. These funds may be irretrievably stuck.
 
-[**For Exisitng validators**](./for-existing-validators.md)- those with active validators and wish to repoint for native restaking
+[**For Exisitng validators**](for-existing-validators.md)- those with active validators and wish to repoint for native restaking
 
-[**For New Validators**](./for-new-validators.md) - for those who wish to deploy new validators for native restaking
+[**For New Validators**](for-new-validators.md) - for those who wish to deploy new validators for native restaking
