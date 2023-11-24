@@ -15,7 +15,13 @@ There are two options for Native restaking:
 
 2. [**Create a new validator for Native restaking:**](for-new-validators.md) setup of a new validator for restaking with EigenLayer.
 
+### Definitions: 
 
-:warning:  Please read this entire guide before launching your new validator or integrating your existing validator.
+**EigenPod:** is a custom contract created by native restakers to opt their validator into native restaking. The **EigenPod contract address** is what must be set as the **validator withdrawal address**.
 
-:memo:  To learn more or setup your Ethereum Validator please follow this link from the [Ethereum Foundation.](https://launchpad.ethereum.org/)
+**Controller Account:** the address that creates the EigenPod contract, this address is responsible for all subsequent restaking and withdrawal operations from that EigenPod. _This can be any Ethereum address under control of the native restaker._
+
+:warning: EigenLayer Native Restaking is not yet compatible with RocketPool validators, do not attempt to set minipool withdrawal addresses to EigenPods.
+
+:warning: Please read this entire guide before launching your new validator or integrating your existing validator.
+

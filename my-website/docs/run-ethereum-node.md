@@ -7,15 +7,15 @@ title: Run Ethereum Node
 
 ## 2. Run an Ethereum Node
 
-An Ethereum staking node refers to both
+An Ethereum staking node refers to both 
 - Full node running **Execution** and **Consensus** clients to do block-by-block validation of the blockchain.
 - **Validator client** for active participation in block proposals and attestations with sufficient stake.
 
 **Hardware requirements:**
 
-- RAM: 32 GB - 16 GB (Min) can be challenging depending on client mix
-- CPU: 4 CPU cores (Min)
-- Storage: 2TB Minimum - 4TB Recommended. Quality is highly important suitable models advised [here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038)
+- RAM: 32 GB - 16 GB (Min) can be challenging depending on client mix.
+- CPU: 4 CPU cores (Min).
+- Storage: 2TB Minimum - 4TB Recommended. Quality is highly important suitable models advised [here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038).
 
 ### Option 1: Manual Configuration
 
@@ -30,25 +30,25 @@ openssl rand -hex 32 | tr -d "\n" > "./jwtsecret/jwt.hex"
 
 **Execution Clients:**
 
-[Nethermind:](https://docs.nethermind.io/)
+[**Nethermind:**](https://nethermind.io/nethermind-client/) client is an Execution layer client developed by the [Nethermind team.](https://docs.nethermind.io/)
 
-[Besu:](https://besu.hyperledger.org/)
+[**Besu:**](https://besu.hyperledger.org/) Hyperledger Besu is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It runs on public and private networks.
 
-[Erigon:](https://github.com/ledgerwatch/erigon) 
+[**Erigon:**](https://github.com/ledgerwatch/erigon) (formerly TurboGeth) is an Ethereum client built to enable performance optimizations. Erigon is written in Go and licensed under the GNU LGPLv3.
 
-[Geth:](https://geth.ethereum.org/)
+[**Geth:**](https://geth.ethereum.org/) his is the most popular and majority Ethereum Client implementation written in Go, Geth fully open source and licensed under the GNU LGPL v3.
 
 **Consensus Clients:**
 
-[Lighthouse:](https://lighthouse.sigmaprime.io/)
+[**Lighthouse:**](https://lighthouse.sigmaprime.io/) is an Ethereum and Gnosis consensus layer client written in Rust by [Sigma Prime.](https://lighthouse.sigmaprime.io/)
 
-[Lodestar:](https://lodestar.chainsafe.io/) 
+[**Lodestar:**](https://lodestar.chainsafe.io/) An Ethereum consensus client by [ChainSafe.](https://lodestar.chainsafe.io/)
 
-[Nimbus:](https://nimbus.team/)
+[**Nimbus:**](https://nimbus.team/) is a client implementation that strives to be as lightweight as possible in terms of resources used. 
 
-[Prysm:](https://docs.prylabs.network/docs/getting-started/)
+[**Prysm:**](https://docs.prylabs.network/docs/getting-started/) The Prysm project is a Go implementation of the Ethereum protocols consensus layer, by [prysmaticlabs.](https://prysmaticlabs.com/)
 
-[Teku:](https://consensys.net/knowledge-base/ethereum-2/teku/)
+[**Teku:**](https://consensys.net/knowledge-base/ethereum-2/teku/) is a consensus client built to meet institutional needs and security requirements. Built by PegaSys, an arm of ConsenSys, who are dedicated to building enterprise-ready clients and tools for interacting with the core Ethereum platform.
 
 **Validator Clients:**
 

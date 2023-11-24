@@ -15,5 +15,4 @@ The Process is as follows:
 3. [Import Keystores](import-validator-keystores.md)
 4. [Make Deposit](make-deposit.md)
 
-
-:warning: Validators SHOULD NOT direct execution rewards (`suggested_fee_recipient`) to their EigenPod. These funds may be irretrievably stuck.
+:memo: New validators should carefully read the [Ethereum Launchpad FAQ](https://launchpad.ethereum.org/) and review checklists before validator setup. 

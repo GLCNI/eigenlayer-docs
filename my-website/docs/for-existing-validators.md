@@ -7,6 +7,6 @@ title: For Existing Validators
 
 ## For Existing Validators
 
-Existing validators with at least one active validator can repoint withdrawal credentials to opt into Native Restaking though EigenLayer
+Existing validators with at least one active validator can repoint withdrawal credentials to opt into Native Restaking though EigenLayer.
 
-first [Verify Validator Withdrawal Prefix](verify-validator-withdrawal-prefix.md) to check eligibilty of the validator for Native Restaking
+first [Verify Validator Withdrawal Prefix](verify-validator-withdrawal-prefix.md) to check eligibilty of the validator for Native Restaking.
